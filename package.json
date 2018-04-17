@@ -1,0 +1,29 @@
+{
+  "name": "shift",
+  "version": "2.0.3",
+  "description": "Official Project For Shift Bot",
+  "main": "node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": { "node": "8.4.0" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PercisionlyCodes/Shift-Bot.git"
+  },
+  "author": "ShiftDevs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PercisionlyCodes/Shift-Botissues"
+  },
+  "homepage": "https://github.com/PercisionlyCodes/Shift-Bot#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "enmap": "^2.1.1",
+    "moment": "^2.22.1",
+    "moment-duration-format": "^2.2.2",
+    "express": "^4.15.5",
+    "snekfetch": "^3.6.4"
+  }
+}
