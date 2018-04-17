@@ -24,6 +24,7 @@
     "moment": "^2.22.1",
     "moment-duration-format": "^2.2.2",
     "express": "^4.15.5",
-    "snekfetch": "^3.6.4"
+    "snekfetch": "^3.6.4",
+    "enmap-level": "^2.1.0"
   }
 }
