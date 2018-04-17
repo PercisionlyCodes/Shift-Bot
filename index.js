@@ -1,6 +1,8 @@
 var Discord = require('discord.js');
 var client = new Discord.Client();
 var Enmap = require("enmap");
+const EnmapLevel = require('enmap-level');
+const settings = new Enmap({provider: new EnmapLevel({name: "settings"})});
 var moment = require("moment");
 require("moment-duration-format");
 var snekfetch = require("snekfetch");
